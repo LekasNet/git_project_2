@@ -1,0 +1,18 @@
+cd ../
+mkdir git_project_2
+cd git_project_2
+git init
+vim numbers.txt
+	:wq
+
+*numbers.txt has been changed*
+
+git add numbers.txt
+git commit -m "added new file"
+git push
+vim txt.txt
+	cd ../
+	mkdir git_project_2
+	cd ... (recursion to be continued)
+
+
