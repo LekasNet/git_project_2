@@ -15,4 +15,14 @@ vim txt.txt
 	mkdir git_project_2
 	cd ... (recursion to be continued)
 
+git branch branch1234567
+git branch
+git checkout b(Tab)ranch1234567
+vim numbers.txt
+	*changing text to 1 2 3 4 5 6 7*
+git add numbers.txt
+git commit -m "git file updated in branch with changing text"
+git push
+git checkout master
+taskill -m -u explorer.exe
 
